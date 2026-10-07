@@ -1,0 +1,50 @@
+{
+  "name": "TOKO SHIDQI BANGUNAN - Kasir POS",
+  "short_name": "Shidqi POS",
+  "description": "Aplikasi Kasir (POS) untuk Toko Bahan Bangunan Shidqi Bangunan",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fdfbf7",
+  "theme_color": "#d9701a",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "finance", "productivity"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Kasir",
+      "short_name": "Kasir",
+      "description": "Buka halaman kasir",
+      "url": "/",
+      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Stok",
+      "short_name": "Stok",
+      "description": "Lihat stok barang",
+      "url": "/stok",
+      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Hutang",
+      "short_name": "Hutang",
+      "description": "Kelola hutang pelanggan",
+      "url": "/hutang",
+      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192" }]
+    }
+  ]
+}

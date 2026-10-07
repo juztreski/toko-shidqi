@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #d9701a;
+  --color-primary-50: #fef3e7;
+  --color-primary-100: #fde8d0;
+  --color-primary-200: #fad1a3;
+  --color-primary-300: #f6b06b;
+  --color-primary-400: #f18d3a;
+  --color-primary-500: #d9701a;
+  --color-primary-600: #c45d15;
+  --color-primary-700: #a04613;
+  --color-primary-800: #813915;
+  --color-primary-900: #693013;
+
+  --color-cream-50: #fdfbf7;
+  --color-cream-100: #faf5eb;
+  --color-cream-200: #f3e9d6;
+  --color-cream-300: #e9d8b5;
+  --color-cream-400: #dfc48a;
+  --color-cream-500: #d2ab5e;
+  --color-cream-600: #c29245;
+  --color-cream-700: #a27336;
+  --color-cream-800: #845d30;
+  --color-cream-900: #6d4c2a;
+}
+
+@layer base {
+  * {
+    @apply border-cream-200;
+  }
+  
+  body {
+    @apply bg-cream-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  :root {
+    color-scheme: light dark;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

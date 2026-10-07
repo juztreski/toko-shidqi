@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fdfbf7"/>
+      <stop offset="100%" style="stop-color:#f3e9d6"/>
+    </linearGradient>
+    <linearGradient id="primary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f6b06b"/>
+      <stop offset="100%" style="stop-color:#d9701a"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="80" fill="url(#bg)"/>
+  <circle cx="256" cy="200" r="110" fill="url(#primary)"/>
+  <path d="M256 120 L256 180 M180 150 L332 150 M180 200 L332 200" stroke="white" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <rect x="130" y="280" width="252" height="20" rx="10" fill="url(#primary)" opacity="0.3"/>
+  <rect x="130" y="315" width="160" height="14" rx="7" fill="url(#primary)" opacity="0.5"/>
+  <text x="256" y="420" text-anchor="middle" font-family="system-ui, sans-serif" font-size="56" font-weight="bold" fill="#d9701a">SB</text>
+</svg>
